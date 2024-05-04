@@ -1,3 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Promt-Regular;
+  src: url(Fonts/Prompt/Prompt-Regular.ttf);
+}
+
 body {
-  color: #27292a;
+  background-color: slategray;
+  font-family: Promt-Regular;
+}
+.navbar {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.navbar ul{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(136, 151, 165);
+  box-shadow: 0 0 10px rgb(95, 105, 115);
+  padding: 5px;
+  border-radius: 40px;
+  list-style-type: none;
+  column-gap: 1em;
+  width: fit-content;
+}
+
+.navbar a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  color: rgb(203, 203, 203);
+  border-radius: 30px;
+}
+
+.navbar a:hover{
+  background-color: rgb(74, 84, 94);
+  transition: .5s;
+  color: white;
+} 
+
+.navbar a:not(:hover){
+  transition: .5s;
+}
+
+.navbar a.active {
+  background-color: rgb(74, 84, 94);
+  color: white;
 }
