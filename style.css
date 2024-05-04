@@ -27,6 +27,7 @@ body {
   border-radius: 40px;
   list-style-type: none;
   column-gap: 1em;
+  flex-wrap: wrap;
   width: fit-content;
 }
 
