@@ -13,12 +13,9 @@ body {
   background-color: slategray;
   font-family: Promt-Regular;
 }
-.navbar {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
+
 .navbar ul{
+  margin: auto;
   display: flex;
   justify-content: center;
   background-color: rgb(136, 151, 165);
@@ -45,8 +42,6 @@ body {
   transition: .5s;
   color: white;
 } 
-
-
 
 .navbar a.active {
   background-color: rgb(74, 84, 94);
