@@ -37,6 +37,7 @@ body {
   padding: 10px 20px;
   color: rgb(203, 203, 203);
   border-radius: 30px;
+  transition: .5s;
 }
 
 .navbar a:hover{
@@ -45,9 +46,7 @@ body {
   color: white;
 } 
 
-.navbar a:not(:hover){
-  transition: .5s;
-}
+
 
 .navbar a.active {
   background-color: rgb(74, 84, 94);
